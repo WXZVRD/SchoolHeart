@@ -6,3 +6,50 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.hero .container{
+    height: 100%;
+}
+
+
+.hero__content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.hero__content-subtitle{
+    font-family: "Montserrat SemiBold";
+    line-height: 24px;
+    font-size: 16px;
+    color: #FFC652;
+
+    margin-bottom: 40px;
+}
+.hero__content-title{
+    font-family: "Montserrat SemiBold";
+    line-height: 80px;
+    font-size: 58px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.hero__content-descr{
+    font-family: "Montserrat";
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+.hero__content-button {
+    font-family: "Montserrat";
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 40px;
+}
