@@ -1,0 +1,36 @@
+.button{
+    font-family: "Montserrat SemiBold";
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-right: 20px;
+    color: black;
+}
+
+.button-simple{
+
+}
+
+.button-rounded{
+    background: #FF6551;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.button__arrow-simple{
+    position: relative;
+    padding: 15px 52px 15px 25px;
+}
+.button__arrow-simple:before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 10px;
+    top: 21px;
+    left: 90px;
+    background-image: url("../../img/arrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
