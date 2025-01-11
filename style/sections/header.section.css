@@ -1,3 +1,47 @@
 header{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    font-family: "Montserrat SemiBold";
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-right: 80px;
+}
+
+.header__nav{
+
+}
+
+.header__nav-item{
+    font-family: "Montserrat SemiBold";
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-right: 20px;
+    color: black;
+}
+
+
+
+.header__right{
+
+}
+
+.header__login-btn{
+    font-family: "Montserrat SemiBold";
+    line-height: 22px;
+    font-size: 14px;
+    color: #fff;
 }
