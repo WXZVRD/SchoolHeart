@@ -1,6 +1,7 @@
 @import "global.css";
 @import "normalize.css";
 @import "pressets/button.css";
+@import "pressets/section.css";
 
 
 
@@ -10,4 +11,5 @@
 @import "sections/header.section.css";
 @import "sections/hero.section.css";
 @import "sections/info.section.css";
+@import "sections/education.section.css";
 
