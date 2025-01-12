@@ -5,7 +5,7 @@
     font-weight: 600;
 
     margin-right: 20px;
-    color: black;
+    color: #ffffff;
 }
 
 .button-simple{
@@ -16,14 +16,21 @@
     background: #FF6551;
     border-radius: 5px;
     padding: 15px 25px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.button-rounded:hover{
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
 }
 
 .button__arrow-simple{
     position: relative;
     padding: 15px 52px 15px 25px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .button__arrow-simple:before{
     position: absolute;
+    transition: transform 0.3s ease;
     content: "";
     display: block;
     width: 12px;
@@ -34,12 +41,20 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.button__arrow-simple:hover {
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+.button__arrow-simple:hover:before {
+    transform: translateX(5px);
+}
 
-.button__arrow-inverted{
+.button__arrow-inverted {
     position: relative;
     padding: 0 52px 0 0;
+    transition: transform 0.3s ease;
 }
-.button__arrow-inverted:before{
+.button__arrow-inverted:before {
     position: absolute;
     content: "";
     display: block;
@@ -50,4 +65,12 @@
     background-image: url("../../img/arrow-inverted.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+.button__arrow-inverted:hover:before {
+    transform: translateX(8px);
+    filter: brightness(1.5);
+}
+.button__arrow-inverted:hover {
+    transform: scale(1.05);
 }
