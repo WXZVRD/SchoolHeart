@@ -84,8 +84,7 @@ a {
 
 abbr[title] {
     border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
+    text-decoration: none; /* 2 */
 }
 
 /**
@@ -376,7 +375,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
 
 a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: none; }
 button{
     border: none;
     background: none;
