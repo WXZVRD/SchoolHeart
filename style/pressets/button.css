@@ -34,3 +34,20 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.button__arrow-inverted{
+    position: relative;
+    padding: 0 52px 0 0;
+}
+.button__arrow-inverted:before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 9px;
+    height: 16px;
+    top: 5px;
+    left: 95px;
+    background-image: url("../../img/arrow-inverted.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
