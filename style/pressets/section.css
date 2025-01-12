@@ -1,0 +1,30 @@
+section{
+
+}
+.section__subtitle{
+    font-family: "Montserrat SemiBold";
+    font-size: 14px;
+    line-height: 24px;
+    color: #FF6551;
+    margin-bottom: 10px;
+}
+.section__title{
+    font-family: "Montserrat SemiBold";
+    font-size: 40px;
+    line-height: 50px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+.section__descr{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+}
+.section__header{
+    margin-bottom: 56px;
+}
+.section__content{
+    padding: 56px 0 112px 0;
+}
