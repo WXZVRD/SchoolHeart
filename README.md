@@ -1,4 +1,4 @@
-# **Проект: Название сайта**
+# **Проект: HTML, CSS, JS School Heart Landong**
 
 ![Проект Скриншот](./img/figmaland-figma.jpg)
 
