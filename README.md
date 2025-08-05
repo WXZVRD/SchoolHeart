@@ -5,7 +5,7 @@
 ## 🎬 Демонстрация проекта
 
 <p align="center">
-  <img src="./README/SchoolHeart-presentation.gif" alt="Демонстрация проекта" width="800"/>
+  <img src="./img/SchoolHeart-presentation.gif" alt="Демонстрация проекта" width="800"/>
 </p>
 
 ## Описание проекта
